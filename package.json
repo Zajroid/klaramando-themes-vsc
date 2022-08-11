@@ -1,0 +1,22 @@
+{
+  "name": "klaramando",
+  "displayName": "Klaramando",
+  "description": "",
+  "version": "0.0.1",
+  "author": "Zajroid",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "klaramndo",
+        "uiTheme": "vs-dark",
+        "path": "./themes/klaramndo-color-theme.json"
+      }
+    ]
+  }
+}
