@@ -5,25 +5,25 @@
     "window.activeBorder": "#ff0000",
     "window.inactiveBorder": "#000000",
     // sidebar
-    "sideBar.background": "#000000",
-    "sideBar.border": "#0a0a0a",
-    "sideBar.foreground": "#ffffff",
+    "sideBar.background": "#08080d", // inner sidebar server.js bg color
+    "sideBar.border": "#0a0a0a", // border sidebar
+    "sideBar.foreground": "#c5a8f4", // color font sidebar
     // activityBar
-    "activityBar.background": "#000000",
-    "activityBar.border": "#400542",
-    "activityBar.activeBorder": "#ad09b3",
-    "activityBar.foreground": "#ad09b3",
-    "activityBar.inactiveForeground": "#400542",
+    "activityBar.background": "#08080d", // right of sidebar 
+    "activityBar.border": "#4e0fc3",
+    "activityBar.activeBorder": "#4e0fc3",
+    "activityBar.foreground": "#4e0fc3",
+    "activityBar.inactiveForeground": "#23055d",
     // statusBar
-    "statusBar.background": "#200221",
+    "statusBar.background": "#08080d", // down bar tab size ...
     // editor
-    "editor.background": "#000000",
+    "editor.background": "#0c0d15",
     "editor.foreground": "#842175",
     "activityBarBadge.background": "#010101",
     "sideBarTitle.foreground": "#ffffff",
 	
 
-	"editorOverviewRuler.background": "#000000",
+	"editorOverviewRuler.background": "#0b0b13", // inner scroll
 
   },
 
@@ -40,7 +40,7 @@
       "name": "Variables",
       "scope": ["variable", "string constant.other.placeholder"],
       "settings": {
-        "foreground": "#823f96"
+        "foreground": "#01fce7"
       }
     },
     {
@@ -61,7 +61,7 @@
       "name": "Keyword, Storage",
       "scope": ["keyword", "storage.type", "storage.modifier"],
       "settings": {
-        "foreground": "#a64ee2"
+        "foreground": "#0f7ebb"
       }
     },
     {
@@ -81,7 +81,7 @@
         "keyword.other.substitution"
       ],
       "settings": {
-        "foreground": "#c51688"
+        "foreground": "#3616c5" // try - cath ...
       }
     },
     {
